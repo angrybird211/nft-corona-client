@@ -1,0 +1,41 @@
+.preview-image {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.avatar-wrapper button {
+    margin-left: 13rem;
+    transform: translateY(-100%);
+}
+
+.avatar-modal {
+    .modal-content {
+        width: 424px;
+    }
+}
+
+.user-list {
+    .dropdown .dropdown-menu .dropdown-item {
+        &.active, &:hover, &:focus {
+            background-color: #f8f9fa;
+        }
+    }
+
+    .dropdown-toggle {
+    text-transform: capitalize;
+    }
+}
+
+.admin-page {
+    .table-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-apply {
+        margin-left: auto;
+        margin-right: 7rem;
+    }
+}
